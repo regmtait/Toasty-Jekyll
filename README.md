@@ -7,7 +7,7 @@ This is Jekyll starter site with a few extra features.
 ## Fancy features
 
 * Uses [Toast](https://daneden.github.io/Toast/), Dan Eden's insane, no nonsense CSS grid
-*  [Jason Mayes Twitter post fetcher](https://github.com/jasonmayes/Twitter-Post-Fetcher)
+*  Jason Mayes' [Twitter post fetcher](https://github.com/jasonmayes/Twitter-Post-Fetcher)
 *  Custom collections: Case studies and Resources
 * Markdown plugin
 * Gratuitous [wenking](https://tiaanduplessis.github.io/wenk/) from Tiaan du Plessis
