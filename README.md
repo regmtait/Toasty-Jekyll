@@ -11,6 +11,7 @@ This is Jekyll starter site with a few extra features. Served at [https://whitel
 *  Custom collections: Case studies and Resources
 * Markdown plugin
 * Gratuitous [wenking](https://tiaanduplessis.github.io/wenk/) from Tiaan du Plessis
+* Google map
 
 ## Image credits
 
