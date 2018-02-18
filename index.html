@@ -1,0 +1,62 @@
+---
+layout: default
+nav-class: home
+description: A White label website
+keywords: jekyll, reg tait
+nav-class: home
+---
+
+<div class="wrapper">
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
+</div>
+
+<section class="cf">
+<div class="wrapper">
+
+<div class="home-news-listing">
+<h2>News</h2>
+{% for post in site.posts limit:3 %}
+<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+<p><span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>{{ post.excerpt }}</p>
+{% endfor %}
+</div>
+
+<a class="read-more" href="/news/" title="News">More news →</a>
+
+</div>
+</section>
+
+
+<section class="home-case-listing cf">
+<div class="wrapper">
+
+<h2>Latest case study</h2>
+
+{% assign items = site.case | sort: 'date' %}
+{% for case in site.case limit:1 %}
+<h3 class="cf"><a title="{{ case.title }} Case study details" href="{{ case.url }}">{{ case.title }}</a></h3>
+
+<div class="grid">
+  <div class="grid__col grid__col--1-of-5 grid__col--m-1-of-3  grid__col--s-1-of-1">
+    {% if case.thumb %}<img src="/{{ site.theme-path }}/case-studies/{{ case.thumb }}" alt="{{ case.title }}" class="listing-thumb"/>{% endif %}
+  </div>
+  <div class="grid__col grid__col--4-of-5 grid__col--m-2-of-3   grid__col--s-1-of-1">
+    <p>{{ case.summary }}</p>
+  </div>
+
+</div>
+{% endfor %}
+
+<a class="read-more" href="/case-studies/" title="Case studies">More case studies →</a>
+
+</div><!-- end wrapper -->
+</section>
+
+<section class="cf">
+<div class="wrapper">
+<h2>Twitter</h2>
+<div id="tweetWrap" class="tweetwrap"></div>
+<script type="text/javascript" src="/js/mytweets.js"></script>
+</div>
+</section>

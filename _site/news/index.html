@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="@regmtait">
+  <link rel=icon href="/theme-assets/favicon.svg" sizes="any" type="image/svg+xml">
+  <title>News • White Label</title>
+  <meta name="description" content="Some news">
+  <meta name="keywords" content="news">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY&callback=initMap"
+    async defer></script>
+
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('google-map'), {
+          center: {lat: 53.7530398, lng: -0.3682561},
+          zoom: 17,
+        });
+
+        var pointer = "/theme-assets/map-pointer.svg";
+
+        var marker = new google.maps.Marker({
+          position: map.getCenter(),
+          icon: pointer,
+          map: map
+        });
+
+      }
+    </script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/news/">
+  <link rel="alternate" type="application/rss+xml" title="White Label" href="http://localhost:4000/feed.xml">
+
+</head>
+
+<body class="news">
+
+<header class="site-header cf">
+
+<div class="wrapper">
+	<nav class="site-nav">
+		<a class="logo" href="/" title="White Label home page">
+		<img class="nav-logo" src="/theme-assets/logo.svg" title="White Label logo" /></a>
+		<ul>
+  			<li data-wenk="Some news" data-wenk-pos="bottom" class="news"><a title="News" class="page-link" href="/news/">News</a></li>
+  			<li data-wenk="Successful case studies" data-wenk-pos="bottom" class="case-studies"><a title="Case studies" class="page-link" href="/case-studies/">Case studies</a></li>
+  			<li data-wenk="Some resources" data-wenk-pos="bottom" class="resources"><a title="Resources" class="page-link" href="/resources/">Resources</a></li>
+  			<li data-wenk="Contact details" data-wenk-pos="bottom" class="contact"><a title="Contact" class="page-link" href="/contact/">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+
+</header>
+
+<div class="page-content">
+ <div class="wrapper">
+
+<article>
+
+<h1 class="post-title">News</h1>
+
+<div class="post-content">
+
+
+</div>
+
+<div class="page-listing">
+
+<div class="listing"> 
+<h2><a class="post-link" href="/2018/02/02/blog.html" title="Read more: Another title">Another title</a></h2>
+<p><span class="inline-post-date">Feb 2, 2018—</span>Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Etiam habebis sem dicantur magna mollis euismod.</p>
+</div>
+
+<div class="listing"> 
+<h2><a class="post-link" href="/2018/01/01/blog.html" title="Read more: My title">My title</a></h2>
+<p><span class="inline-post-date">Jan 1, 2018—</span>Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.</p>
+</div>
+
+</div>
+
+</article>
+
+</div><!-- end wrapper -->
+
+</div>
+
+<footer class="site-footer cf">
+<div class="wrapper">
+
+<ul>
+<li>Email: <a href="mailto:regmtait@gmail.com" title="Email us">regmtait@gmail.com</a></li>
+</ul>
+
+</div>
+</footer>
+
+</body>
+
+</html>
