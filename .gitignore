@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-metadata
+_glynn.yml
+_drafts
+*.save*
+*.save
+*.css.map
+notes.md
+.lock
+_site
