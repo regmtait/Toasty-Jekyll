@@ -1,6 +1,6 @@
 # A super simple white label Jekyll website
 
-This is Jekyll starter site with a few extra features.
+This is Jekyll starter site with a few extra features. Served at [https://whitelabel.netlify.com](https://whitelabel.netlify.com/)
 
 ![Screenshot](theme-assets/screenshot.png)
 
