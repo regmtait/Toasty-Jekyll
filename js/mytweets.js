@@ -414,7 +414,7 @@
 }));
 
 var config1 = {
-   "profile": {"screenName": 'goblockchain'},
+   "profile": {"screenName": 'regmtait'},
   "domId": 'tweetWrap',
   "maxTweets": 1,
    "showUser": false,
